@@ -1,4 +1,4 @@
-package practiceUdemySessions;
+package bokkaloPractice;
 
 public class JavaMethodsAndConstructors 
 {
