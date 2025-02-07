@@ -50,7 +50,7 @@ public class Reverse
 		System.out.println(var);
 		
 		
-		*/
+		
 		
 		StringBuilder actual_string = new StringBuilder("Welcome to Subodh");
 		System.out.println(actual_string.reverse());
@@ -63,7 +63,7 @@ public class Reverse
 		
 		System.out.println(s); // This will never ipact the original Value
 		
-		*/
+		
 		
 		// String Builder and String Buffer is a Mutable
 		
@@ -71,6 +71,26 @@ public class Reverse
 		s.append("to Selenium Sessions");
 		System.out.println(s);
 		
+		*/
+		
+		
+		String actual = "Maiydam";
+		String palindrom = "";
+		
+		for(int i=0;i<actual.length();i++)
+		{
+			palindrom = actual.charAt(i)+palindrom;
+		}
+		
+		if(actual.equalsIgnoreCase(palindrom))
+		{
+			System.out.println("Palindrom");
+		}
+		
+		else
+		{
+			System.out.println("No Palindrom");
+		}
 		
 		
 		
